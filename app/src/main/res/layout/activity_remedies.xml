@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Remedies">
+
+    <TextView
+        android:id="@+id/remediesTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remedies"
+        android:typeface="monospace"
+        android:textColor="@color/darkpurple"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/backToSymptomsBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Restart (Deletes Chosen Symptoms)"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/backToMainBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:text="Main Menu"
+        android:textColor="@color/white"
+        android:typeface="monospace" />
+
+    <!-- ScrollView for list of remedies -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/scrollViewText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:typeface="monospace"
+            android:textColor="@color/darkpurple">
+        </TextView>
+
+    </ScrollView>
+
+</LinearLayout>

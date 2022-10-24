@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".ChooseSymptoms">
+
+    <TextView
+        android:id="@+id/chooseTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Symptoms"
+        android:typeface="monospace"
+        android:textColor="@color/darkpurple"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/feverBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="feverClick"
+        android:text="Fever"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/chillsBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="chillsClick"
+        android:text="Chills"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/coughBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="coughClick"
+        android:text="Cough"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/diffBreathBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="diffBreatheClick"
+        android:text="Difficulty breathing"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/fatigueBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="fatigueClick"
+        android:text="Fatigue"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/achesBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="achesClick"
+        android:text="Body aches"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/lossBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="lossClick"
+        android:text="loss of taste/smell"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/soreThroatBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="soreThroatClick"
+        android:text="Sore throat"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/congestionBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="congestionClick"
+        android:text="Congestion"
+        android:typeface="monospace"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/toRemediesBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:typeface="monospace"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
